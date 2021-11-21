@@ -10,10 +10,10 @@ This is a slack bot built for the purpose of performing some actions on AWS ECR 
 3. *Python3* and *pip3* installed</li>
 4. *AWS CLI version 2* installed</li>
 5. env variables to be stored in a `.env` file at the root of the directory:
-    - `SLACK_TOKEN_=</li>`
-    - `SIGNING_SECRET_=</li>`
-    - `AWS_PROFILE=</li>`
-    - `AWS_ACCOUNT_NUMBER=</li>`
+    - `SLACK_TOKEN_=`
+    - `SIGNING_SECRET_=`
+    - `AWS_PROFILE=`
+    - `AWS_ACCOUNT_NUMBER=`
 6. Docker images are present on ECR for the bot to perform its necessary action</li>
 7. Docker installed on local machine to push images to ECR if required</li>
 
